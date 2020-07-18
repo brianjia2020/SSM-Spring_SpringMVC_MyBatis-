@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="emp" class="com.atguigu.spring5.Bean.Employee">
+        <property name="ename" value="lucy"/>
+        <property name="gender" value="female"/>
+        <property name="department" ref="dept"/>
+<!--        <property name="deptartment.dname" value="technology"/>-->
+    </bean>
+
+    <bean id="dept" class="com.atguigu.spring5.Bean.Department">
+        <property name="dname" value="finance"/>
+    </bean>
+</beans>

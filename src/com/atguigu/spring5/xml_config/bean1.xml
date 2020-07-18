@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--    1. create the classUser -->
+<!--    <bean id="user" class="com.atguigu.spring5.User" ></bean>-->
+
+<!--    2. create the Class with setter-->
+<!--    <bean id="book" class="com.atguigu.spring5.Book">-->
+<!--        <property name="bname" value="chunyangjia"></property>-->
+<!--        <property name="bauthor" value="chunyang"></property>-->
+<!--    </bean>-->
+
+<!--    <bean id="order" class="com.atguigu.spring5.Order">-->
+<!--        <constructor-arg name="oname" value="abc"></constructor-arg>-->
+<!--        <constructor-arg name="address" value="china"></constructor-arg>-->
+<!--    </bean>-->
+<!--        <bean id="order" class="com.atguigu.spring5.Order">-->
+<!--            <constructor-arg name="oname">-->
+<!--                <value><![CDATA[<<nanjing>>]]></value>-->
+<!--            </constructor-arg>-->
+<!--            <constructor-arg name="address">-->
+<!--                <value><![CDATA[<<nanjing>>]]></value>-->
+<!--            </constructor-arg>-->
+<!--        </bean>-->
+
+</beans>
